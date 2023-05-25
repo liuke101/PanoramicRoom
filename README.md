@@ -4,7 +4,7 @@
 
 # 后端
 
-## 环境准备：
+## 环境准备
 
 jkd1.8 
 
@@ -34,7 +34,9 @@ Maven
 
 3. 运行SQL文件（.PanoramicRoom-master\SQL\logindemo.sql），这里使用Navicat软件：
 
-注意将SQL配置成和本地相同（PanoramicRoom-master\springboot-master\src\main\resources\application.properties）
+注意将sql配置文件配置成和本地数据库相同（配置文件在PanoramicRoom-master\springboot-master\src\main\resources\application.properties）
+
+![image-20230525190825834](assets/image-20230525190825834.png)
 
 ~~~
 # 配置端口号
@@ -80,7 +82,35 @@ npm install
 npm run serve
 ```
 
-3. 访问http://localhost:8080/注册登录
+3. 访问 http://localhost:8080/  注册登录
+
+![image-20230525190958413](assets/image-20230525190958413.png)
+
+
+
+# 操作指南
+
+![image-20230525191122750](assets/image-20230525191122750.png)
+
+**PC端：**
+
+鼠标左键按住旋转视角
+
+鼠标左键单击进行交互
+
+鼠标滚轮缩放视角
+
+右下角全屏显示，Esc退出
+
+
+
+**移动端：**
+
+单指滑动旋转视角
+
+双指滑动缩放视角
+
+
 
 # Github
 
@@ -96,5 +126,5 @@ npm run serve
 
 
 
-若提示移动设备不支持WebGL构建，忽略提示，等待加载完成即可。
+若提示WebGL builds are not supported on mobile devices，忽略等待加载完成即可。
 
