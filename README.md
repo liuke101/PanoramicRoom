@@ -16,7 +16,7 @@ MySQL
 
 Maven
 
-## 本地部署
+## 部署
 
 **使用IDEA打开springboot-master文件夹：**
 
@@ -66,7 +66,7 @@ spring.datasource.password=123456
 
 Node.js v10以上
 
-## 本地部署
+## 部署
 
 **使用VSCode打开vue-master文件夹，新建终端**
 
